@@ -1,0 +1,14 @@
+pubspec.yaml
+pubspec.lock
+lib/
+test/
+android/
+ios/
+macos/
+windows/
+linux/
+web/
+.metadata
+analysis_options.yaml
+README.md
+assets/
