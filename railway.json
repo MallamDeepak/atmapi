@@ -1,0 +1,21 @@
+{
+  "services": [
+    {
+      "name": "appatm-backend",
+      "root": "backend",
+      "buildCommand": "npm install",
+      "startCommand": "npm start",
+      "envVars": [
+        {
+          "name": "MONGO_URI"
+        },
+        {
+          "name": "JWT_SECRET"
+        },
+        {
+          "name": "CORS_ORIGIN"
+        }
+      ]
+    }
+  ]
+}
